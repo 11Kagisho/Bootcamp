@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+    
+body{
+    background-color: whitesmoke;
+    font-family: "Jost", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    padding: 1rem;
+    color: #cf0001;
+}
+
+.logo h4{
+    color: #cf0001;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+li{ 
+    padding: 2rem;
+    align-content: end;
+    font-size: medium;
+
+      
+}
+
+li a {
+    text-decoration: none;
+}
+
+img{
+    display: flex;
+    width: 50px;
+    height: 30px;
+}
+
+video{
+    display: contents;
+
+}
+
+.hero{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bio{
+    display:flex;
+    padding: 2%;
+    font-size: larger;
+    color: blueviolet;
+    text-align: left;
+    justify-content: left;
+}
+
+.photo{
+    display:grid;
+    width: 10rem;
+    height: 10rem;
+    
+}
+
+.aboutme{
+    display: flex;
+    list-style: circle;
+    align-content: center;
+    background-color: aquamarine;
+    color: darkgreen;
+
+}
+
